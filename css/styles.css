@@ -87,6 +87,8 @@ h1 {
   overflow: hidden;
   transition: all 300ms ease-in-out;
 }
+
+
 .active .answer {
   margin-bottom: 17px;
   height: auto;
@@ -171,5 +173,10 @@ h1 {
   }
   .active .answer {
     margin-bottom: 12px;
+  }
+}
+@media (hover:hover) {
+  .question:hover {
+    color: var(--soft-red);
   }
 }
